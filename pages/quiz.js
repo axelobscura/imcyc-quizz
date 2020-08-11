@@ -1,10 +1,11 @@
+import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 
 function quiz(){
     return(
-        <main className={styles.main}>
-            <h1>CUESTIONARIO IMCYC</h1>
-        </main>
+        <Layout title="Ingrese su nombre | IMCYC">
+                <h1>CUESTIONARIO IMCYC</h1>
+        </Layout>
     )
 }
 
