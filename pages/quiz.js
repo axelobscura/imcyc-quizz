@@ -12,12 +12,28 @@ function quiz(){
                         <h1>CUESTIONARIO IMCYC</h1>
                     </Col>
                 </Row>
-                <Row md={4}>
-                    <Col><input type="text" name="nombre" className="loscampos" placeholder="Ingrese su nombre completo" /></Col>
-                    <Col><input type="text" name="nombre" className="loscampos" placeholder="Ingrese su Correo Electrónico" /></Col>
+                <Row className="mt-3">
+                    <Col>
+                        <input type="text" name="nombre" className="loscampos" placeholder="Ingrese su nombre completo" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <input type="text" name="nombre" className="loscampos" placeholder="Ingrese su Correo Electrónico" />
+                    </Col>
                 </Row>
             </Container>
+            <style jsx>{`
+                input {
+                    width: 100%;
+                    border: 0;
+                    padding:10px 30px;
+                    border-radius:20px;
+                    margin: 5px;
+                }
+        `}</style>
         </Layout>
+        
     )
 }
 
