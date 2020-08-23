@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-function quiz(){
-    return(
+function quiz() {
+    return (
         <Layout title="Ingrese su nombre | IMCYC">
             <Container>
                 <Row>
                     <Col>
-                        <h1>CUESTIONARIO IMCYC</h1>
+                        <h1>CUESTIONARIO IMCYC - 2020</h1>
                     </Col>
                 </Row>
                 <Row className="mt-3">
@@ -33,7 +33,7 @@ function quiz(){
                 }
         `}</style>
         </Layout>
-        
+
     )
 }
 
